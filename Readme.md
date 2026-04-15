@@ -148,10 +148,11 @@ https://hub.docker.com/r/kdulobo12/is601_module11
 
 ## 📸 Screenshots
 ✅ GitHub Actions Success
-(Add screenshot here)
+
 
 ✅ Docker Hub Image
-(Add screenshot here)
+![alt text](image.png)
+
 Link: https://hub.docker.com/r/kdulobo12/is601_module11
 
 ##📋 Submission Checklist
