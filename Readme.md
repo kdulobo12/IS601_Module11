@@ -1,6 +1,8 @@
 # 📌 Project Overview
 
-This project extends a FastAPI-based calculator application by implementing a **Calculation model using SQLAlchemy**, robust validation using **Pydantic schemas**, and a complete **CI/CD pipeline**.
+This project extends a FastAPI-based calculator application by implementing a **Calculation model using SQLAlchemy**, robust validation using **Pydantic schemas**, and a complete 
+
+**CI/CD pipeline**.
 
 The application integrates PostgreSQL for persistence, uses a factory pattern for calculation logic, and includes unit and integration tests. Docker is used for containerization, and GitHub Actions automates testing and deployment to Docker Hub.
 
@@ -111,7 +113,6 @@ This improves scalability and keeps logic clean and modular.
 
 ## Step 1: Clone Repo
 
-```bash
 git clone https://github.com/kdulobo12/IS601_Module11
 cd IS601_Module11
 Step 2: Setup Virtual Environment
@@ -142,18 +143,24 @@ Build Docker image
 Run security scan (Trivy)
 Push image to Docker Hub
 
+---
+
 ## 🐳 Docker Hub Repository
 👉 Docker Image Link:
 https://hub.docker.com/r/kdulobo12/is601_module11
+---
 
 ## 📸 Screenshots
 ✅ GitHub Actions Success
+<img width="3360" height="1940" alt="image" src="https://github.com/user-attachments/assets/4458238f-0d5e-4c7d-8015-c6f5b30510b9" />
 
 
 ✅ Docker Hub Image
 ![alt text](image.png)
 
 Link: https://hub.docker.com/r/kdulobo12/is601_module11
+
+---
 
 ##📋 Submission Checklist
 
@@ -168,13 +175,25 @@ Docker Hub Deployment
 README Documentation
 Reflection
 
-##🧠 Reflection
+---
+
+## 🧠 Reflection
 This project helped me understand how backend systems are structured using models, validation, and testing. Implementing the Calculation model using SQLAlchemy taught me how to design database schemas and manage structured data effectively.
 One of the key challenges I faced was ensuring correct validation using Pydantic, especially handling edge cases such as division by zero and invalid operation types. This improved my understanding of input validation and data integrity.
 Another major learning experience was working with Docker and PostgreSQL. I encountered issues with port conflicts and database volume mismatches, which required cleaning Docker volumes and properly configuring containers. This helped me understand how containerized databases behave across builds.
 The CI/CD pipeline setup using GitHub Actions was also very valuable. I learned how to automate testing, build Docker images, and deploy them to Docker Hub. Debugging issues like missing secrets and incorrect image naming conventions taught me the importance of configuration in deployment pipelines.
 Overall, this project strengthened my understanding of backend development, testing strategies, containerization, and deployment workflows. It provides a strong foundation for building more advanced features in future modules.
 
+---
+
 👩‍💻 Author
 Krupa Adulobo
 GitHub: https://github.com/kdulobo12
+
+
+
+
+
+
+
+
