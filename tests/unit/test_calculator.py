@@ -1,5 +1,3 @@
-# tests/unit/test_calculator.py
-
 import pytest  # Import the pytest framework for writing and running tests
 from typing import Union  # Import Union for type hinting multiple possible types
 from app.operations import add, subtract, multiply, divide  # Import the calculator functions from the operations module
