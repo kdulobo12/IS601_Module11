@@ -83,8 +83,8 @@ jobs:
         with:
           push: true
           tags: |
-            kdulobo12/IS601_Module11:latest
-            kdulobo12/IS601_Module11:${{ github.sha }}
+            kdulobo12/is601_module11:latest
+            kdulobo12/is601_module11:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=kdulobo12/IS601_Module11:cache
+          cache-from: type=registry,ref=kdulobo12/is601_module11:cache
           cache-to: type=inline,mode=max
